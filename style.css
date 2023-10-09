@@ -1,0 +1,225 @@
+/* ******* css reset (min) ******* */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin in favor of better control in authored CSS */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  line-height: 1.25;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* ******* layout styles ******* */
+
+/* ******* header ******* */
+
+header {
+  display: flex;
+  background-color: #1f2937;
+  flex-direction: column;
+  color: #f9faf8;
+  padding-top: 8px;
+}
+
+header a {
+  color: inherit;
+}
+
+header img {
+  width: 500px;
+  height: auto;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 1rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+nav li {
+  font-size: 16px;
+
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+  gap: 140px;
+  padding: 4rem 0;
+  /* border: 3px solid red; */
+}
+
+/* trying to get some vertical space-between using flex.
+why not working? */
+
+/* .hero.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} */
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+li.logo {
+  margin-right: auto;
+  font-size: 24px;
+}
+
+
+.hero button {
+  background-color: #3882f6;
+  border: none;
+  color: inherit;
+  padding: .5rem 1rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+/* ******* info boxes ******* */
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
+}
+
+.info h2 {
+  font-size: 2rem;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.item-wrap {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.item {
+  margin: 0 52px;
+  max-width: 110px;
+  text-align: center;
+  margin: auto;
+  color: #1f2937;
+  font-weight: 100;
+}
+
+.title {
+  margin-bottom: 2rem;
+}
+
+ul {
+  padding-inline-start: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ******* quote ******* */
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #e5e7eb;
+  padding: 4rem 0;
+}
+
+.quote-wrap {
+  max-width: 840px;
+  margin: auto;
+}
+
+blockquote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+  color: #1f2937;
+}
+
+.quote .attribution {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 700;
+}
+
+/* ******* cta ******* */
+
+.cta {
+  padding: 4rem 0;
+}
+
+.cta-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882f6;
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem 6rem;
+  border-radius: 4px;
+  gap: 10rem;
+  color: #f9faf8;
+}
+
+.cta-wrap p {
+  font-weight: 100;
+
+}
+
+.cta-wrap .left{
+  margin-right: auto;
+}
+
+.cta-wrap button{
+  border: 2px solid ;
+  background: none;
+  color: inherit;
+  border-radius: 4px;
+  padding: .5rem 1rem;
+}
+
+/* ******* footer ******* */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 2rem 0;
+}
