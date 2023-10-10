@@ -17,4 +17,6 @@ I will use this as practice, and as the start of my custom design-system starter
 
 ## Attribution
 
-sevenstorm juhaszimrus for Pexels image #704767
+SevenStorm JUHASZIMRUS for Pexels image #704767
+
+https://www.pexels.com/photo/123-let-s-go-imaginary-text-704767/
