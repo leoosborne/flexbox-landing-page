@@ -1,4 +1,6 @@
-/* ******* css reset (min) ******* */
+/* ***************************** */
+/*        css reset (min)        */
+/* ***************************** */
 
 /* Box sizing rules */
 *,
@@ -28,7 +30,21 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* ******* layout styles ******* */
+button {
+  cursor: pointer;
+}
+
+
+/* ***************************** */
+/*           variables           */
+/* ***************************** */
+
+
+
+
+/* ***************************** */
+/*         layout styles         */
+/* ***************************** */
 
 /* ******* header ******* */
 
@@ -168,7 +184,7 @@ blockquote {
   font-size: 36px;
   font-style: italic;
   font-weight: 200;
-  color: #1f2937;
+  color: #747479;
 }
 
 .quote .attribution {
@@ -223,3 +239,8 @@ footer {
   color: #f9faf8;
   padding: 2rem 0;
 }
+
+
+/* ***************************** */
+/*           utilities           */
+/* ***************************** */
