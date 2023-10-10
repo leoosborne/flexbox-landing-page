@@ -13,3 +13,8 @@ I will use this as practice, and as the start of my custom design-system starter
 
 
 2. build design-system starter kit
+
+
+## Attribution
+
+sevenstorm juhaszimrus for Pexels image #704767
